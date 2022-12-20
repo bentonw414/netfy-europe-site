@@ -1,0 +1,50 @@
+ 
+<div style="text-align:center; justify-content: center;" id="random_image_div">
+    <div class="image-container" id="random-image-container">
+        <img class="mycoverimg" style="display: inline; border-radius: 1em;" id="random-image-img" class="entry-cover">
+    </div>
+    <div id="mycovercaption" class="mycoverimagecaption"></div>
+</div>
+
+{{ if isset  (.Params.images) 0 }}
+<hr>
+{{end}}
+<script>
+    all_urls = [
+        {{ range .Params.images }}
+            {{ .largestUri }},
+        {{ end }}
+    ];
+
+    all_titles = [
+        {{ range .Params.images }}
+            {{ .titlestr }},
+        {{ end }}
+    ]
+    
+    all_ratios = [
+        {{ range .Params.images }}
+            {{ .largewidth }}/{{ .largeheight }},
+        {{ end }}
+    ]
+
+    if (all_urls.length > 0) {
+        index = Math.floor(Math.random()*all_urls.length)
+        random_url = all_urls[index];
+
+        console.log("random_url is: ", random_url);
+        let start_url = random_url.slice(0,random_url.lastIndexOf("."))
+        let code = undefined;
+        if (start_url.lastIndexOf("-") === start_url.length -2){
+            code = start_url[start_url.length-1]
+            start_url = start_url.slice(0, -2);
+        }
+        start_url = start_url.replaceAll("/" + code + "/", "/M/");
+        document.getElementById("random-image-img").src = start_url + "-M" + random_url.slice(random_url.lastIndexOf("."));
+        document.getElementById("mycovercaption").innerText = all_titles[index];
+        console.log("random_url is: ", document.getElementById("random-image-img").src);
+        document.getElementById("random-image-container").style = "aspect-ratio: " + all_ratios[index];
+    } else {
+        console.log("no images", {{ . }})
+    }
+</script>

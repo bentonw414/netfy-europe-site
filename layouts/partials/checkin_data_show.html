@@ -1,0 +1,55 @@
+<div class="post-content">
+        <div id="mymap" style="height: 60vh; width: 90%; border-radius: 1em; display:block; margin: auto; margin-top: 1em; margin-bottom: 1em;"></div>
+        <div>
+            <strong>Click to show location on map:</strong> (Click images for large versions. Titles link to foursquare pages)
+            <ol>
+                {{ range .Params.checkin_data.all }}
+                <li><span class="venue-name-bullet" id="bullet-{{.venue_name}}">{{.venue_name}}</span></li>
+                {{end}}
+            </ol>
+        </div>
+</div>
+
+<script>
+    let mins = L.latLng({{ .Params.checkin_data.min_latitude }}, {{ .Params.checkin_data.min_longitude }});
+    let maxes = L.latLng({{ .Params.checkin_data.max_latitude }} + .002, {{ .Params.checkin_data.max_longitude }});
+    bounds = L.latLngBounds(mins, maxes);
+
+    let map = L.map('mymap', {
+        zoomSnap: 1,
+        zoomControl: false,
+    }).fitBounds(bounds);
+
+    L.Control.zoomHome().addTo(map);
+
+    console.log(L.Control.zoomHome());
+
+    // L.Control.zoomHome().on('click', function() {
+    //     console.log("home clciked");
+    // });
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        detectRetina: true,
+        maxZoom: 19,
+        attribution: '© OpenStreetMap'
+    }).addTo(map);
+
+    // L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+    //     detectRetina: true,
+    //     maxZoom: 20,
+    //     attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+    // }).addTo(map);
+
+    let markers = {}
+    {{ range .Params.checkin_data.all }}
+        markers['marker-{{.venue_name}}'] = L.marker([{{.latitude}}, {{.longitude}}]).addTo(map).bindPopup('{{partial "checkin_data_map_popup.html" .}}').on(
+            'click', function(e){
+            map.flyTo(e.latlng, Math.max(13, map.getZoom()));
+        });
+        document.getElementById('bullet-{{.venue_name}}').addEventListener('click', function() {
+            map.flyTo([{{.latitude}}, {{.longitude}}], Math.max(13, map.getZoom()));
+            markers['marker-{{.venue_name}}'].openPopup();
+        });
+        
+    {{ end }}
+</script>

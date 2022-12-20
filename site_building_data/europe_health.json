@@ -1,0 +1,497 @@
+{
+    "2022-06-26": {
+        "steps_fitbit_tw": 16339,
+        "steps_apple_tw": 14072,
+        "miles_apple_tw": 5.8343,
+        "steps_apple_bb": 14610,
+        "miles_apple_bb": 7.5,
+        "active_calories_apple_bb": 0,
+        "sleep_minutes_fitbit_tw": 368
+    },
+    "2022-06-27": {
+        "steps_fitbit_tw": 22320,
+        "steps_apple_tw": 20576,
+        "miles_apple_tw": 8.5254,
+        "steps_apple_bb": 22507,
+        "miles_apple_bb": 10,
+        "active_calories_apple_bb": 1127.954,
+        "sleep_minutes_fitbit_tw": 472
+    },
+    "2022-06-28": {
+        "steps_fitbit_tw": 21268,
+        "steps_apple_tw": 19487,
+        "miles_apple_tw": 8.0031,
+        "steps_apple_bb": 21134,
+        "miles_apple_bb": 9.1,
+        "active_calories_apple_bb": 1151.97,
+        "sleep_minutes_fitbit_tw": 339
+    },
+    "2022-06-29": {
+        "steps_fitbit_tw": 23956,
+        "steps_apple_tw": 22047,
+        "miles_apple_tw": 9.2591,
+        "steps_apple_bb": 24744,
+        "miles_apple_bb": 11.2,
+        "active_calories_apple_bb": 1168.267,
+        "sleep_minutes_fitbit_tw": 418
+    },
+    "2022-06-30": {
+        "steps_fitbit_tw": 31204,
+        "steps_apple_tw": 26630,
+        "miles_apple_tw": 10.9363,
+        "steps_apple_bb": 29618,
+        "miles_apple_bb": 12.9,
+        "active_calories_apple_bb": 1714.11,
+        "sleep_minutes_fitbit_tw": 408
+    },
+    "2022-07-01": {
+        "steps_fitbit_tw": 9131,
+        "steps_apple_tw": 7721,
+        "miles_apple_tw": 3.384,
+        "steps_apple_bb": 7459,
+        "miles_apple_bb": 3.3,
+        "active_calories_apple_bb": 508.665,
+        "sleep_minutes_fitbit_tw": 466
+    },
+    "2022-07-02": {
+        "steps_fitbit_tw": 13494,
+        "steps_apple_tw": 12667,
+        "miles_apple_tw": 5.4934,
+        "steps_apple_bb": 28066,
+        "miles_apple_bb": 13.2,
+        "active_calories_apple_bb": 1269.926,
+        "sleep_minutes_fitbit_tw": 387
+    },
+    "2022-07-03": {
+        "steps_fitbit_tw": 20757,
+        "steps_apple_tw": 20359,
+        "miles_apple_tw": 8.4857,
+        "steps_apple_bb": 22382,
+        "miles_apple_bb": 10.4,
+        "active_calories_apple_bb": 978.805,
+        "sleep_minutes_fitbit_tw": 278
+    },
+    "2022-07-04": {
+        "steps_fitbit_tw": 18410,
+        "steps_apple_tw": 17899,
+        "miles_apple_tw": 8.539,
+        "steps_apple_bb": 20280,
+        "miles_apple_bb": 11.2,
+        "active_calories_apple_bb": 1280.455,
+        "sleep_minutes_fitbit_tw": 460
+    },
+    "2022-07-05": {
+        "steps_fitbit_tw": 19630,
+        "steps_apple_tw": 20103,
+        "miles_apple_tw": 9.101,
+        "steps_apple_bb": 18572,
+        "miles_apple_bb": 8.5,
+        "active_calories_apple_bb": 960.245,
+        "sleep_minutes_fitbit_tw": 425
+    },
+    "2022-07-06": {
+        "steps_fitbit_tw": 18828,
+        "steps_apple_tw": 18180,
+        "miles_apple_tw": 9.0095,
+        "steps_apple_bb": 20624,
+        "miles_apple_bb": 11.2,
+        "active_calories_apple_bb": 1273.875,
+        "sleep_minutes_fitbit_tw": 255
+    },
+    "2022-07-07": {
+        "steps_fitbit_tw": 13012,
+        "steps_apple_tw": 13978,
+        "miles_apple_tw": 5.7632,
+        "steps_apple_bb": 12918,
+        "miles_apple_bb": 5.8,
+        "active_calories_apple_bb": 931.387,
+        "sleep_minutes_fitbit_tw": 318
+    },
+    "2022-07-08": {
+        "steps_fitbit_tw": 12653,
+        "steps_apple_tw": 12112,
+        "miles_apple_tw": 4.9051,
+        "steps_apple_bb": 12610,
+        "miles_apple_bb": 5.7,
+        "active_calories_apple_bb": 613.206,
+        "sleep_minutes_fitbit_tw": 262
+    },
+    "2022-07-09": {
+        "steps_fitbit_tw": 17539,
+        "steps_apple_tw": 16551,
+        "miles_apple_tw": 7.3898,
+        "steps_apple_bb": 17868,
+        "miles_apple_bb": 8.6,
+        "active_calories_apple_bb": 943.341,
+        "sleep_minutes_fitbit_tw": 217
+    },
+    "2022-07-10": {
+        "steps_fitbit_tw": 20941,
+        "steps_apple_tw": 24506,
+        "miles_apple_tw": 12.3622,
+        "steps_apple_bb": 13708,
+        "miles_apple_bb": 6.2,
+        "active_calories_apple_bb": 745.05,
+        "sleep_minutes_fitbit_tw": 401
+    },
+    "2022-07-11": {
+        "steps_fitbit_tw": 19651,
+        "steps_apple_tw": 20083,
+        "miles_apple_tw": 9.1334,
+        "steps_apple_bb": 12018,
+        "miles_apple_bb": 5.4,
+        "active_calories_apple_bb": 754.004,
+        "sleep_minutes_fitbit_tw": 395
+    },
+    "2022-07-12": {
+        "steps_fitbit_tw": 23350,
+        "steps_apple_tw": 17684,
+        "miles_apple_tw": 7.3763,
+        "steps_apple_bb": 13299,
+        "miles_apple_bb": 5.9,
+        "active_calories_apple_bb": 839.859,
+        "sleep_minutes_fitbit_tw": 390
+    },
+    "2022-07-13": {
+        "steps_fitbit_tw": 10148,
+        "steps_apple_tw": 7821,
+        "miles_apple_tw": 3.3626,
+        "steps_apple_bb": 16648,
+        "miles_apple_bb": 7.9,
+        "active_calories_apple_bb": 194.85,
+        "sleep_minutes_fitbit_tw": 393
+    },
+    "2022-07-14": {
+        "steps_fitbit_tw": 16115,
+        "steps_apple_tw": 15627,
+        "miles_apple_tw": 8.0312,
+        "steps_apple_bb": 11121,
+        "miles_apple_bb": 4.9,
+        "active_calories_apple_bb": 609.215,
+        "sleep_minutes_fitbit_tw": 392
+    },
+    "2022-07-15": {
+        "steps_fitbit_tw": 18782,
+        "steps_apple_tw": 20113,
+        "miles_apple_tw": 8.4354,
+        "steps_apple_bb": 22664,
+        "miles_apple_bb": 10.1,
+        "active_calories_apple_bb": 1223.664,
+        "sleep_minutes_fitbit_tw": 350
+    },
+    "2022-07-16": {
+        "steps_fitbit_tw": 20948,
+        "steps_apple_tw": 21017,
+        "miles_apple_tw": 8.613,
+        "steps_apple_bb": 20078,
+        "miles_apple_bb": 8.9,
+        "active_calories_apple_bb": 1193.796,
+        "sleep_minutes_fitbit_tw": 409
+    },
+    "2022-07-17": {
+        "steps_fitbit_tw": 15811,
+        "steps_apple_tw": 14944,
+        "miles_apple_tw": 7.6405,
+        "steps_apple_bb": 15003,
+        "miles_apple_bb": 6.4,
+        "active_calories_apple_bb": 747.239,
+        "sleep_minutes_fitbit_tw": 351
+    },
+    "2022-07-18": {
+        "steps_fitbit_tw": 19577,
+        "steps_apple_tw": 17792,
+        "miles_apple_tw": 7.3146,
+        "steps_apple_bb": 19403,
+        "miles_apple_bb": 8.2,
+        "active_calories_apple_bb": 1336.688,
+        "sleep_minutes_fitbit_tw": 297
+    },
+    "2022-07-19": {
+        "steps_fitbit_tw": 34851,
+        "steps_apple_tw": 32549,
+        "miles_apple_tw": 14.4296,
+        "steps_apple_bb": 36010,
+        "miles_apple_bb": 15.7,
+        "active_calories_apple_bb": 1970.191,
+        "sleep_minutes_fitbit_tw": 355
+    },
+    "2022-07-20": {
+        "steps_fitbit_tw": 8549,
+        "steps_apple_tw": 7843,
+        "miles_apple_tw": 3.3352,
+        "steps_apple_bb": 10083,
+        "miles_apple_bb": 4.4,
+        "active_calories_apple_bb": 604.263,
+        "sleep_minutes_fitbit_tw": 344
+    },
+    "2022-07-21": {
+        "steps_fitbit_tw": 13750,
+        "steps_apple_tw": 13866,
+        "miles_apple_tw": 5.8147,
+        "steps_apple_bb": 22516,
+        "miles_apple_bb": 9.7,
+        "active_calories_apple_bb": 1011.826,
+        "sleep_minutes_fitbit_tw": 443
+    },
+    "2022-07-22": {
+        "steps_fitbit_tw": 20558,
+        "steps_apple_tw": 20559,
+        "miles_apple_tw": 10.148,
+        "steps_apple_bb": 15867,
+        "miles_apple_bb": 6.9,
+        "active_calories_apple_bb": 841.604,
+        "sleep_minutes_fitbit_tw": 356
+    },
+    "2022-07-23": {
+        "steps_fitbit_tw": 14830,
+        "steps_apple_tw": 15581,
+        "miles_apple_tw": 6.1368,
+        "steps_apple_bb": 15541,
+        "miles_apple_bb": 6.9,
+        "active_calories_apple_bb": 722.361,
+        "sleep_minutes_fitbit_tw": 397
+    },
+    "2022-07-24": {
+        "steps_fitbit_tw": 18131,
+        "steps_apple_tw": 17634,
+        "miles_apple_tw": 7.2665,
+        "steps_apple_bb": 18983,
+        "miles_apple_bb": 8.3,
+        "active_calories_apple_bb": 996.671,
+        "sleep_minutes_fitbit_tw": 333
+    },
+    "2022-07-25": {
+        "steps_fitbit_tw": 21761,
+        "steps_apple_tw": 23975,
+        "miles_apple_tw": 11.4284,
+        "steps_apple_bb": 23257,
+        "miles_apple_bb": 10.2,
+        "active_calories_apple_bb": 1204.607,
+        "sleep_minutes_fitbit_tw": 385
+    },
+    "2022-07-26": {
+        "steps_fitbit_tw": 14877,
+        "steps_apple_tw": 14840,
+        "miles_apple_tw": 6.3516,
+        "steps_apple_bb": 14531,
+        "miles_apple_bb": 6.4,
+        "active_calories_apple_bb": 812.057,
+        "sleep_minutes_fitbit_tw": 409
+    },
+    "2022-07-27": {
+        "steps_fitbit_tw": 18519,
+        "steps_apple_tw": 18706,
+        "miles_apple_tw": 8.3787,
+        "steps_apple_bb": 15342,
+        "miles_apple_bb": 6.9,
+        "active_calories_apple_bb": 1251.019,
+        "sleep_minutes_fitbit_tw": 379
+    },
+    "2022-07-28": {
+        "steps_fitbit_tw": 14885,
+        "steps_apple_tw": 13790,
+        "miles_apple_tw": 6.0791,
+        "steps_apple_bb": 11372,
+        "miles_apple_bb": 4.9,
+        "active_calories_apple_bb": 688.023,
+        "sleep_minutes_fitbit_tw": 303
+    },
+    "2022-07-29": {
+        "steps_fitbit_tw": 17717,
+        "steps_apple_tw": 18382,
+        "miles_apple_tw": 7.884,
+        "steps_apple_bb": 15675,
+        "miles_apple_bb": 6.8,
+        "active_calories_apple_bb": 820.261,
+        "sleep_minutes_fitbit_tw": 412
+    },
+    "2022-07-30": {
+        "steps_fitbit_tw": 16386,
+        "steps_apple_tw": 14941,
+        "miles_apple_tw": 6.2414,
+        "steps_apple_bb": 16706,
+        "miles_apple_bb": 7.2,
+        "active_calories_apple_bb": 714.686,
+        "sleep_minutes_fitbit_tw": 368
+    },
+    "2022-07-31": {
+        "steps_fitbit_tw": 17951,
+        "steps_apple_tw": 16537,
+        "miles_apple_tw": 6.7487,
+        "steps_apple_bb": 18129,
+        "miles_apple_bb": 8.3,
+        "active_calories_apple_bb": 1072.821,
+        "sleep_minutes_fitbit_tw": 362
+    },
+    "2022-08-01": {
+        "steps_fitbit_tw": 22849,
+        "steps_apple_tw": 21650,
+        "miles_apple_tw": 8.9032,
+        "steps_apple_bb": 23852,
+        "miles_apple_bb": 10.5,
+        "active_calories_apple_bb": 1488.693,
+        "sleep_minutes_fitbit_tw": 323
+    },
+    "2022-08-02": {
+        "steps_fitbit_tw": 14423,
+        "steps_apple_tw": 14147,
+        "miles_apple_tw": 5.8231,
+        "steps_apple_bb": 17065,
+        "miles_apple_bb": 7.6,
+        "active_calories_apple_bb": 888.598,
+        "sleep_minutes_fitbit_tw": 340
+    },
+    "2022-08-03": {
+        "steps_fitbit_tw": 11059,
+        "steps_apple_tw": 10130,
+        "miles_apple_tw": 4.2387,
+        "steps_apple_bb": 9833,
+        "miles_apple_bb": 4.4,
+        "active_calories_apple_bb": 719.028,
+        "sleep_minutes_fitbit_tw": 465
+    },
+    "2022-08-04": {
+        "steps_fitbit_tw": 18797,
+        "steps_apple_tw": 17365,
+        "miles_apple_tw": 7.4135,
+        "steps_apple_bb": 21600,
+        "miles_apple_bb": 9.8,
+        "active_calories_apple_bb": 1504.822,
+        "sleep_minutes_fitbit_tw": 304
+    },
+    "2022-08-05": {
+        "steps_fitbit_tw": 21046,
+        "steps_apple_tw": 19879,
+        "miles_apple_tw": 8.2262,
+        "steps_apple_bb": 22286,
+        "miles_apple_bb": 10.2,
+        "active_calories_apple_bb": 1427.977,
+        "sleep_minutes_fitbit_tw": 390
+    },
+    "2022-08-06": {
+        "steps_fitbit_tw": 25070,
+        "steps_apple_tw": 24158,
+        "miles_apple_tw": 9.9413,
+        "steps_apple_bb": 26873,
+        "miles_apple_bb": 11.8,
+        "active_calories_apple_bb": 1622.529,
+        "sleep_minutes_fitbit_tw": 368
+    },
+    "2022-08-07": {
+        "steps_fitbit_tw": 14956,
+        "steps_apple_tw": 13405,
+        "miles_apple_tw": 5.7406,
+        "steps_apple_bb": 15042,
+        "miles_apple_bb": 6.7,
+        "active_calories_apple_bb": 713.376,
+        "sleep_minutes_fitbit_tw": 368
+    },
+    "2022-08-08": {
+        "steps_fitbit_tw": 27758,
+        "steps_apple_tw": 24686,
+        "miles_apple_tw": 11.5872,
+        "steps_apple_bb": 22708,
+        "miles_apple_bb": 10.3,
+        "active_calories_apple_bb": 1037.405,
+        "sleep_minutes_fitbit_tw": 358
+    },
+    "2022-08-09": {
+        "steps_fitbit_tw": 19643,
+        "steps_apple_tw": 19928,
+        "miles_apple_tw": 8.3678,
+        "steps_apple_bb": 18412,
+        "miles_apple_bb": 8.1,
+        "active_calories_apple_bb": 1093.833,
+        "sleep_minutes_fitbit_tw": 359
+    },
+    "2022-08-10": {
+        "steps_fitbit_tw": 20204,
+        "steps_apple_tw": 19805,
+        "miles_apple_tw": 8.0517,
+        "steps_apple_bb": 20574,
+        "miles_apple_bb": 9.2,
+        "active_calories_apple_bb": 864.039,
+        "sleep_minutes_fitbit_tw": 378
+    },
+    "2022-08-11": {
+        "steps_fitbit_tw": 17434,
+        "steps_apple_tw": 14330,
+        "miles_apple_tw": 5.9775,
+        "steps_apple_bb": 15290,
+        "miles_apple_bb": 6.9,
+        "active_calories_apple_bb": 846.926,
+        "sleep_minutes_fitbit_tw": 375
+    },
+    "2022-08-12": {
+        "steps_fitbit_tw": 25621,
+        "steps_apple_tw": 25231,
+        "miles_apple_tw": 10.5581,
+        "steps_apple_bb": 26099,
+        "miles_apple_bb": 13.1,
+        "active_calories_apple_bb": 1447.962,
+        "sleep_minutes_fitbit_tw": 393
+    },
+    "2022-08-13": {
+        "steps_fitbit_tw": 25048,
+        "steps_apple_tw": 24727,
+        "miles_apple_tw": 10.4136,
+        "steps_apple_bb": 25079,
+        "miles_apple_bb": 11.1,
+        "active_calories_apple_bb": 1050.687,
+        "sleep_minutes_fitbit_tw": 303
+    },
+    "2022-08-14": {
+        "steps_fitbit_tw": 20203,
+        "steps_apple_tw": 15336,
+        "miles_apple_tw": 6.4491,
+        "steps_apple_bb": 14850,
+        "miles_apple_bb": 6.5,
+        "active_calories_apple_bb": 1051.927,
+        "sleep_minutes_fitbit_tw": 303
+    },
+    "2022-08-15": {
+        "steps_fitbit_tw": 19371,
+        "steps_apple_tw": 17083,
+        "miles_apple_tw": 6.9545,
+        "steps_apple_bb": 19128,
+        "miles_apple_bb": 8.6,
+        "active_calories_apple_bb": 961.164,
+        "sleep_minutes_fitbit_tw": 313
+    },
+    "2022-08-16": {
+        "steps_fitbit_tw": 22011,
+        "steps_apple_tw": 21522,
+        "miles_apple_tw": 8.8857,
+        "steps_apple_bb": 21306,
+        "miles_apple_bb": 9.4,
+        "active_calories_apple_bb": 1111.878,
+        "sleep_minutes_fitbit_tw": 330
+    },
+    "2022-08-17": {
+        "steps_fitbit_tw": 14652,
+        "steps_apple_tw": 13997,
+        "miles_apple_tw": 5.9411,
+        "steps_apple_bb": 15016,
+        "miles_apple_bb": 6.5,
+        "active_calories_apple_bb": 692.177,
+        "sleep_minutes_fitbit_tw": 372
+    },
+    "2022-08-18": {
+        "steps_fitbit_tw": 20414,
+        "steps_apple_tw": 19581,
+        "miles_apple_tw": 8.3568,
+        "steps_apple_bb": 22532,
+        "miles_apple_bb": 10.3,
+        "active_calories_apple_bb": 1355.051,
+        "sleep_minutes_fitbit_tw": 362
+    },
+    "2022-08-19": {
+        "steps_fitbit_tw": 7887,
+        "steps_apple_tw": 6294,
+        "miles_apple_tw": 2.7942,
+        "steps_apple_bb": 8966,
+        "miles_apple_bb": 4.2,
+        "active_calories_apple_bb": 652.2917,
+        "sleep_minutes_fitbit_tw": 337
+    }
+}

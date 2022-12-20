@@ -1,0 +1,15 @@
+{{- $scratch := newScratch }}
+
+{{ range first 1 .Pages.ByDate }}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat))))}}
+{{ end }}
+
+{{ range last 1 .Pages.ByDate }}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat))))}}
+{{ end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;to&nbsp;" -}}
+{{- end -}}
+
+&nbsp;•&nbsp;{{ len .Pages }} days

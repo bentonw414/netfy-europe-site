@@ -1,0 +1,7 @@
+<div class="post-content">
+  <strong>A bit of hard data from the day:</strong>
+  <ul>
+    <li>According to Benton's Apple Watch, he took <strong>{{ lang.FormatNumberCustom 0  .Params.healthData.steps_apple_bb "- . ," }} steps</strong> over the course of the day, covering <strong>{{ lang.FormatNumber 1 .Params.healthData.miles_apple_bb }} miles</strong> and burning <strong>{{ lang.FormatNumberCustom 0 .Params.healthData.active_calories_apple_bb "- . ," }} active calories</strong>.</li>
+    <li>According to Tim's Fitbit, he started the day having slept for <strong>{{ lang.FormatNumber 1 (div (float .Params.healthData.sleep_minutes_fitbit_tw) 60) }} hours</strong>, and he walked <strong>{{ lang.FormatNumberCustom 0 .Params.healthData.steps_fitbit_tw "- . ," }} steps</strong> over the course of the day.</li>
+  </ul>
+</div>  

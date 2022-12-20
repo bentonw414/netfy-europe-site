@@ -1,0 +1,8 @@
+<div class="mymap-pop">
+    <b><a href={{.venue_url}} target="_blank">{{.venue_name}}</a></b><br>
+    <div id="map-popup-images">
+        {{range .images}}
+            <a class="with-image" href="{{.prefix}}1000{{.suffix}}" target="_blank"><img style="display: inline-block; border-radius: 1em; margin: .5em;" src={{.prefix}}100{{.suffix}}></a>
+        {{end}}
+    </div>
+</div>
